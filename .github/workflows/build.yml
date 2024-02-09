@@ -19,3 +19,7 @@ jobs:
           SONAR_HOST_URL: https://squad-2-core.sc-dev.io
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          args: >
+            -Dsonar.organization=alexrage
+            -Dsonar.projectKey=AlexRage_next.js
