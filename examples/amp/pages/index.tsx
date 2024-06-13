@@ -9,6 +9,7 @@ export const config = {
 
 export default function IndexPage() {
   const isAmp = useAmp()
+  console.log(isAmp);
 
   return (
     <Layout>
